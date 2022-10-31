@@ -23,6 +23,11 @@ namespace Oefening2
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (Waarde.Text == "")
+            {
+                MessageBox.Show("Geef een getal in.");
+            } else
+            {
            waarde = Double.Parse(Waarde.Text);
            Form1.MainForm.listBox1.Items.Add(waarde);
             Waarde.Text = "";
@@ -37,6 +42,7 @@ namespace Oefening2
             Form1.MainForm.textBox1.Text = gemiddelde.ToString();
 
             this.Close();
+            }
         }
     }
 }
