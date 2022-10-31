@@ -23,6 +23,7 @@ namespace Oefening2
 
         private void button1_Click(object sender, EventArgs e)
         {
+            // als waarde leeg is.
             if (Waarde.Text == "")
             {
                 MessageBox.Show("Geef een getal in.");
