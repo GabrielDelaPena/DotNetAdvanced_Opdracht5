@@ -16,6 +16,7 @@ namespace Oefening2
             mDIForm.MdiParent = Form1.ActiveForm;
             mDIForm.StartPosition = FormStartPosition.CenterScreen;
             mDIForm.Show();
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
